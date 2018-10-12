@@ -1,4 +1,4 @@
-# Conditional React Component
+# Conditional React Component [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/condicom.svg)](https://bundlephobia.com/result?p=condicom)
 
 Tiny helper which allows you to apply component enhancements by condition.
 
