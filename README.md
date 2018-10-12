@@ -96,7 +96,8 @@ export const LinkThemeColorful = withCondition<ILinkProps>(
                 <span className="Link-Inner">{props.text}</span>
             </Link>
         </div>
-    ));
+    )
+);
 ```
 
 In Project 3.
@@ -110,7 +111,7 @@ import { compose } from 'really-typed-compose';
 
 const EnhacedLink = compose(LinkThemeColorful, LinkPseudo)(Link);
 
-// IT'LL BE APPLIED ONLY WITH MATCHED PROPS
+// IT'LL APPLY ALL ENHANCEMENTS
 const Form = () => (
     <div className="Form">
         <EnhacedLink theme="colorful" action url="#">
@@ -118,5 +119,6 @@ const Form = () => (
         </EnhacedLink>
     </div>
 );
+```
 
 ### License [MIT](LICENSE)
