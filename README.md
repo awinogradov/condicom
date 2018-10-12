@@ -4,7 +4,7 @@ Tiny helper which allows you to apply component enhancements by condition.
 
 ## Install
 
-> npm i -S conditional-component
+> npm i -S condicom
 
 ## Usage
 
@@ -35,7 +35,7 @@ But, also, you have theme for this component. Of couse you don't want to have al
 
 `Link_theme_coloful.tsx`
 ``` tsx
-import { withCondition, matchProps } from 'conditional-component';
+import { withCondition, matchProps } from 'condicom';
 
 import { ILinkProps } from './Link';
 
@@ -82,7 +82,7 @@ You can make any compositions by conditions.
 
 `Link_pseudo.tsx`
 ``` tsx
-import { withCondition, matchProps } from 'conditional-component';
+import { withCondition, matchProps } from 'condicom';
 
 import { ILinkProps } from './Link';
 
