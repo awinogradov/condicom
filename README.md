@@ -48,6 +48,7 @@ Then in Project 1.
 
 `index.tsx`
 ``` tsx
+import * as React from 'react';
 import { Link } from 'my-conditional-components/Link';
 
 const Form = () => (
@@ -61,6 +62,7 @@ And in Project 2.
 
 `index.tsx`
 ``` tsx
+import * as React from 'react';
 import { Link } from 'my-conditional-components/Link';
 import { LinkThemeColorful } from 'my-conditional-components/Link_theme_colorful';
 import { compose } from 'really-typed-compose';
@@ -82,6 +84,7 @@ You can make any compositions by conditions.
 
 `Link_pseudo.tsx`
 ``` tsx
+import * as React from 'react';
 import { withCondition, matchProps } from 'condicom';
 
 import { ILinkProps } from './Link';
@@ -104,6 +107,7 @@ In Project 3.
 
 `index.tsx`
 ``` tsx
+import * as React from 'react';
 import { Link } from 'my-conditional-components/Link';
 import { LinkThemeColorful } from 'my-conditional-components/Link_theme_colorful';
 import { LinkPseudo } from 'my-conditional-components/Link_pseudo';
