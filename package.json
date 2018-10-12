@@ -1,6 +1,6 @@
 {
   "name": "condicomt",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Apply component enhancements by condition",
   "main": "index.js",
   "typings": "index.d.ts",
