@@ -1,0 +1,41 @@
+{
+  "name": "conditional-component",
+  "version": "1.0.0",
+  "description": "Apply component enhancements by condition",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.js.map",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Ooops...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awinogradov/conditional-component.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "hoc",
+    "enhancement",
+    "functional"
+  ],
+  "author": "Anton Vingoradov <winogradovaa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awinogradov/conditional-component/issues"
+  },
+  "homepage": "https://github.com/awinogradov/conditional-component#readme",
+  "devDependencies": {
+    "@types/react": "16.4.16",
+    "react": "16.5.2",
+    "typescript": "3.1.3"
+  },
+  "peerDependencies": {
+    "react": "^15.6.2 || ^16.0.0"
+  }
+}
